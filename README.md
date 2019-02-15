@@ -26,6 +26,14 @@ export default {
 </script>
 ```
 
+# Changelog
+
+## 1.0.1
+- fix duplicate headers and footers when switching between routes
+
+## 1.0.0
+- Initial commit
+
 # ISC License
 Copyright 2019 Jan Hadenfeldt
 
