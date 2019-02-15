@@ -2,11 +2,11 @@
 > A vue.js component for dynamically loading the Microsoft UHF
 
 # Usage
-##Install the component
+## Install the component
 
 ``npm i -s vue-uhf``
 
-##Import the component
+## Import the component
 
 ```html
 <template>
