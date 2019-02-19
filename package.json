@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhadenfeldt/vue-uhf.git"
+  },
   "author": "info@jan-hadenfeldt.de",
   "license": "ISC",
   "dependencies": {
