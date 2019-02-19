@@ -11,7 +11,7 @@
     "url": "https://github.com/jhadenfeldt/vue-uhf.git"
   },
   "author": "info@jan-hadenfeldt.de",
-  "license": "ISC",
+  "license": "BSD 3-Clause License",
   "dependencies": {
     "axios": "^0.18.0",
     "jquery": "^3.3.1"
