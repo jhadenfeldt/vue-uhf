@@ -1,5 +1,5 @@
 # vue-uhf
-> A vue.js component for dynamically loading the Microsoft UHF
+> A Vue.js component for dynamically loading the Microsoft UHF
 
 # Usage
 ## Install the component
