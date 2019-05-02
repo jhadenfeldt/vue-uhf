@@ -28,6 +28,9 @@ export default {
 
 # Changelog
 
+## 1.0.4
+- update jQuery due to vulnerability (see: https://nvd.nist.gov/vuln/detail/CVE-2019-11358)
+
 ## 1.0.3
 - update license
 
