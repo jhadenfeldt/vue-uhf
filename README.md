@@ -26,6 +26,43 @@ export default {
 </script>
 ```
 
+## Configure "Skip to main content" link
+
+Microsoft accessibility standards require that keyboard users be able to skip over header and navigation elements and go straight to the main area of any page. By default the main content ID is set to `mainContent`.
+
+```html
+<div id="mainContent">
+    <!-- App content here -->
+</div>
+```
+
+## Configure header/footer placement
+
+By default the header will be prepended and the footer will be appended to the `<body>`-tag. Set `headerContainerId` and `footerContainerId` to place the markup within specific containers of your layout.
+
+Suggested layout:
+
+```html
+<!-- App.vue -->
+
+<template>
+    <div>
+        <UHF header-container-id="headerContent" footer-container-id="footerContent" />
+        <header id="headerContent"></header>
+        <main id="mainContent">
+            <router-view />
+        </main>
+        <footer id="footerContent"></footer>
+    </div>
+</template>
+```
+
+[Layout example](https://gist.github.com/sonjastrieder/c9ea2f184bcf273cb4fa91440c36be8d)
+
+## Browser support
+
+If support for legacy browsers like IE11 is required please ensure to explicitly transpile this dependency with Babel. See [transpileDependencies](https://cli.vuejs.org/config/#transpiledependencies)
+
 # Changelog
 
 ## 1.0.4
