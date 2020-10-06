@@ -2,6 +2,7 @@
 > A Vue.js component for dynamically loading the Microsoft UHF
 
 # Usage
+
 ## Install the component
 
 ``npm i -s vue-uhf``
@@ -11,7 +12,7 @@
 ```html
 <template>
     <div class="page">
-        <UHF partnerID="YourPartnerID" headerID="YourHeaderID" footerID="YourFooterID" :cookieCompliance="true" />
+        <UHF partner-id="YourPartnerId" header-id="YourHeaderId" footer-id="YourFooterId" :cookieCompliance="true" />
     </div>
 </template>
 
@@ -36,7 +37,7 @@ Microsoft accessibility standards require that keyboard users be able to skip ov
 </div>
 ```
 
-## Configure header/footer placement
+## Configure header/footer placement (optional)
 
 By default the header will be prepended and the footer will be appended to the `<body>`-tag. Set `headerContainerId` and `footerContainerId` to place the markup within specific containers of your layout.
 
@@ -56,8 +57,6 @@ Suggested layout:
     </div>
 </template>
 ```
-
-[Layout example](https://gist.github.com/sonjastrieder/c9ea2f184bcf273cb4fa91440c36be8d)
 
 ## Browser support
 
